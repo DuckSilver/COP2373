@@ -1,0 +1,37 @@
+Name: Alexander Lewis
+Date Created: 8/28/2024
+---
+Program Description:
+The program simulates a magic 8 ball. The program creates a file of 12 random responses
+to a yes or no question and reads the txt file onto a list. The purpose of the program
+is to answer basic yes or no questions in a random manner.
+---
+Logical Steps:
+1. Creates a file "8ball_responses.txt" and writes 12 yes or no responses to it.
+2. The program reads the file onto a list.
+3. The function "answer" creates a random value 0 through 11 and selects that line from the list.
+4. A while loop asks the user if they want to use the magic 8 ball
+5. The function answer is called printing a random response
+6. The while loop is executed again until they answer "n"
+---
+Variables:
+1. data: The text of file1
+2. ball: A list of each line of file1
+3. num: A random integer 0 through 11
+4. cont: An inputed response
+---
+Functions:
+1. Function Name: main
+Description: Defines the whole program
+Parameters: None
+Returns: None
+2. Function Name: eightball
+Description: Defines the function of the eightball
+Parameters: None
+Returns: None
+3. Function Name: answer
+Description: Generates and randomly prints one of 12 responses
+Parameters: None
+Returns: None
+---
+Link to repository: https://github.com/DuckSilver/COP2373.git
