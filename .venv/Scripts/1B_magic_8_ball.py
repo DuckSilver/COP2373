@@ -38,7 +38,7 @@ def main():
             print()
 
         # prompts the user to use the 8 ball
-        cont = input("Use magic 8 ball? (y/n): ")
+        cont = input('Ask the magic 8 ball a question... ("n" to end): ')
         while cont != "n":
             answer()
             cont = input("Continue? (y/n): ")
