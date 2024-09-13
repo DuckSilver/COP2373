@@ -1,0 +1,41 @@
+Name: Alexander Lewis
+Date Created: 9/13/2024
+---
+Program Description:
+The program detects spam words within a user inputed email. The program then warns the user
+about any potential common spam phrases, gives a spam score, and determines the likelyhood that the
+message is spam. This is useful to determine if an email is spam.
+---
+Logical Steps:
+1. User inputs an email and the email is divided into a list.
+2. The potential spam words and phrases are defined.
+3. The function word_check() creates a number of variables.
+4. Inside the function a while loop is established to call each word of the email.
+5. An if else statement is used to check each potetial spam phrase against each word of the email.
+6. Should the word be found as spam likely it is written into a list and a point is added to the spam score.
+7. The function prints the spam score and spam words detected.
+8. The function uses the spam score to determine and print the likelyhood the message is spam.
+---
+Variables:
+1. email: An inputed response for the email
+2. words: A list of each word in the email
+3. badWords: All the spam words
+4. bWords: All the spam words in a list
+5. num: Is added to after a word is checked
+6. x: The length of the list of words
+7. warn: The spam score
+8. fine: Normal word score
+9. spamWords: list of spam words found
+10. rep: Amount of times the while loop is repeated
+11. bNum: Is added to after each spam word is checked
+12. y: length of spamWord list
+13. rep2: Amount of times second while loop is repeated
+14. warnWord: The spam word currently being scanned for
+---
+Functions:
+1. Function Name: word_check
+Description: Checks each word of the email
+Parameters: None
+Returns: None
+---
+Link to repository: https://github.com/DuckSilver/COP2373.git
