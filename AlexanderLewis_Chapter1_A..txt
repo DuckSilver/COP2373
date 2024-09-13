@@ -1,0 +1,38 @@
+Name: Alexander Lewis
+Date Created: 8/27/2024
+---
+Program Description:
+This program sells 20 tickets while tracking the number of buyers. Each buyer can purchase up to 
+4 tickets and can only purchase tickets that are left. Then the program displays the number of 
+buyers. The purpose of the program is to sell 20 tickets and count the number of buyers.
+---
+Logical Steps:
+1. Create the accumlating variables TicketCount and BuyerCount
+2. The program checks if there is more than one ticket left
+3. The program asks how many ticket the user would like to purchase.
+4. The amount of tickets the buyer is purchasing is inputed
+5. The program calculates the tickets remaining if the transaction is complete.
+6. The program checks if the buyer is 5 or more tickets
+7. The program checks if the tickets remaining is greater than -1
+8. If the program passes both checks then the transaction is completed and the TicketCount is set to the remaining tickets
+9. If the program failed a check then it displays an error and restarts the transaction
+10. The program adds to the buyer count
+11. Once all 20 tickets are sold the buyer count is displayed
+---
+Variables:
+1. TicketCount: Amount of tickets remaining
+2. BuyerCount: Amount of successful transactions
+3. salecount: number of tickets to purchase inputed by the buyer
+4. RemainCheck: Amount of tickets remaining should the transaction be successful
+---
+Functions:
+1. Function Name: main
+Description: The function runs the entire program.
+Parameters: none
+Returns: none
+2. Function Name: end
+Description: The function provides the statistics (the buyer count) of the ticket sale.
+Parameters: none
+Returns: none
+---
+Link to repository: https://github.com/DuckSilver/COP2373.git
