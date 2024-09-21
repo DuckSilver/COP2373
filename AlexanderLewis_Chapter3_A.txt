@@ -1,0 +1,46 @@
+Name: Alexander Lewis
+Date Created: 9/21/2024
+---
+Program Description:
+The program prompts user for the expense and expense type of an item, then calculates and prints the total
+expenses, the highest expense, and lowest expense.
+---
+Logical Steps:
+1. The program enters a while loop that continues as cont = y.
+2. In the loop, the program asks for the expense type and cost.
+3. In the loop, the program asks the user to type y to continue.
+4. The expenses function returns the expense type and expense cost lists.
+5. The program calculates and prints the total of the list of expenses.
+6. The program determines the maximum of the cost list.
+7. The program then prints the highest cost and the item at that index.
+8. The program determines the minimum of the cost list.
+9. The program then prints the lowest cost and the item at that index.
+---
+Variables:
+1. item: List of expenses
+2. costs: List of the cost of expenses
+3. cont: User inputed continue check
+4. num: Adds one to after each use of while loop
+5. highest: The maximum of cost list
+6. lowest: The minimum of cost list
+7. index: The index of an element in cost list
+---
+Functions:
+1. Function Name: expenses
+Description: Prompts for expense type and cost until user does not wish to continue
+Parameters: None
+Returns: costs, item
+2. Function Name: total
+Description: Calculates and prints total cost of expenses
+Parameters: None
+Returns: None
+3. Function Name: expensive
+Description: Calculates and prints highest expense
+Parameters: None
+Returns: None
+4. Function Name: cheap
+Description: Calculates and prints lowest expense
+Parameters: None
+Returns: None
+---
+Link to repository: https://github.com/DuckSilver/COP2373.git
