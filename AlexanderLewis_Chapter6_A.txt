@@ -1,0 +1,46 @@
+Name: Alexander Lewis
+Date Created: 10/21/2024
+---
+Program Description:
+The program asks for a phone number, social security number, and zip codes then states if each is valid or invalid.
+---
+Logical Steps:
+1. The user is asked to enter phone number, social security, and zip code.
+2. A function "phone_number()" checks phone number by compiling it and checking if it matches.
+3. The function then return true or false
+4. An if-else statement prints "valid" if true and "invalid" if false
+5. A function "ssn()" checks social number by compiling it and checking if it matches.
+6. The function then return true or false
+7. An if-else statement prints "valid" if true and "invalid" if false
+8. A function "zip_code()" checks inputed zip code by compiling it and checking if it matches.
+9. The function then return true or false
+10. An if-else statement prints "valid" if true and "invalid" if false
+---
+Variables:
+1. phone: Inputed phone number
+2. social: Inputed ssn
+3. zip: Inputed zip code
+4. check: a pattern to be matched against
+5. valid_phone: a boolean indicating the validity of the phone number
+6. valid_social: a boolean indicating the validity of the social security number
+7. valid_zip: a boolean indicating the validity of the zip code
+---
+Functions:
+1. Function Name: phone_num
+Description: Validates a phone number.
+Parameters: phone
+Returns: none
+2. Function Name: ssn
+Description: Validates an SSN
+Parameters: social
+Returns: none
+3. Function Name: zip_code
+Description: Validates a zip code.
+Parameters: zip
+Returns: none
+4. Function Name: main
+Description: Recives user inputs, outputs results, and runs all functions.
+Parameters: none
+Returns: none
+---
+Link to repository: https://github.com/DuckSilver/COP2373.git
