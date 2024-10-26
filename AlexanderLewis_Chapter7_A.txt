@@ -1,0 +1,35 @@
+Name: Alexander Lewis
+Date Created: 10/26/2024
+---
+Program Description:
+The program determines how many sentences are in a user inputed paragraph and displays the
+separated sentences.
+---
+Logical Steps:
+1. A user inputs a paragraph.
+2. The program runs user input into the function sentence_scan().
+3. The function checks the paragraph for begining with a capital letter or number.
+4. The function then checks for a ".", "?", or "!"
+5. If both are met the string is separated from the rest.
+6. Then, the function checks for a space and another sentence after.
+7. The process is repeated until the whole string is checked for setences.
+8. The program prints the length of the list of strings or number of sentences.
+9. Finally, the program print each string the original was split into.
+---
+Variables:
+1. check: Pattern which indicates a sentence
+2. resultCount: The list of sentences from variable paragraph
+3. paragraph: The user inputed paragraph
+4. sentenceNum: Number of sentences found in variable paragraph
+---
+Functions:
+1. Function Name: sentence_scan
+Description: Scans paramater "paragraph" for sentences and print them and amount of sentences.
+Parameters: paragraph
+Returns: none
+2. Function Name: main
+Description: Recives user inputs, outputs results, and runs function.
+Parameters: none
+Returns: none
+---
+Link to repository: https://github.com/DuckSilver/COP2373.git
