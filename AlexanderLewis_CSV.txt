@@ -1,0 +1,47 @@
+Name: Alexander Lewis
+Date Created: 10/26/2024
+---
+Program Description:
+The program writes students first name, last name, and grades of tests 1 through 3
+to a csv file. Then the program reads the file to the user.
+---
+Logical Steps:
+1. The user is asked if they want to write to file.
+2. If yes the user is prompted for number of students that are to be inputed.
+3. The program creates a header for the csv file.
+4. For each student the user is prompted for first and last name and exam 1 through 3.
+5. The program compiles data for each student per row into csv file.
+6. The user is prompted whether to read file.
+7. If yes then the csv file is printed as a table.
+---
+Variables:
+1. filename: the name of file to be used
+2. fields: the header for file
+3. studentNum: the number student
+4. numStudents: the total number of students
+5. name: one student's inputed name
+6. last: one student's inputed last name
+7. exam1: one student's inputed exam one score
+8. exam2: one student's inputed exam two score
+9. exam3: one student's inputed exam three score
+5. studentInfo: list of one students inputed info
+6. csvwriter: csv.writer object
+7. df: data field for csv file as a table
+8. writer: csv.DictWriter object
+---
+Functions:
+1. Function Name: grades
+Description: Inputed info on student which is then written into a file.
+Parameters: studentNum
+Returns: none
+2. Function Name: readfile
+Description: Prints csv file if wanted.
+Parameters: none
+Returns: none
+3. Function Name: main
+Description: Runs the program, prompts to write to file and then for number
+of students. Also writes header to csv file.
+Parameters: none
+Returns: none
+---
+Link to repository: https://github.com/DuckSilver/COP2373.git
