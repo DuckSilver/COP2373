@@ -1,0 +1,46 @@
+Name: Alexander Lewis
+Date Created: 11/3/2024
+---
+Program Description:
+The program simulates a bank by creating methods to describe account number, funds, and interest rate. The program also simulates withdraws and deposits and calculates interest based on the amount of days passed.
+---
+Logical Steps:
+1. A bank account for Billy Bob is printed displaying name, account_number,
+funds, and interest rate.
+2. The user is asked to input withdraw amount.
+3. Program checks if withdraw amount is less than account funds if not it fails.
+4. If true, then the program subtracts withdraw amount from funds
+and displays new account funds.
+5. The user is asked to input deposit amount.
+6. The program adds inputed amount to account funds then displays.
+7. The user is asked to input new interest rate.
+8. The interest rate is updated to user inputed new interest rate.
+9. The user is asked for time in days to calculate interest rate for.
+10. With inputed time in days, the program multiplies account funds by
+interest rate divided by 100, then this by time in days divided by 365.
+11. The calculated interest is printed.
+12. Finally, the updated bank info is printed.
+---
+Variables:
+1. check: Pattern which indicates a sentence
+1. name: Account name
+2. account_number: number identifying the bank account
+3. amount: Funds in bank account
+4. interest_rate: The interest rate for account
+5. interest: Calculated interest for amount of days
+6. days: Amount of days passes inputed by user
+7. new_rate: The new interest rate inputed by the user
+8. withdraw_funds: Inputed funds to be withdrawn
+9. deposit_funds: The inputed funds to be deposited
+10. rate_new: The inputed new interest rate
+11. time: The inputed time in days to calculate interest for
+12. account: The account of Billy Bob 
+---
+Functions:
+1. Function Name: bank_test
+Description: A test for the bank acct class. Creates account for Billy Bob and asks user
+to input amount to withdraw to despoit and to change interest to for inputed number of days.
+Parameters: none
+Returns: none
+---
+Link to repository: https://github.com/DuckSilver/COP2373.git
