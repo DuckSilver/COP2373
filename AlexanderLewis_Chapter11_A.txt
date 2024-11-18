@@ -1,0 +1,47 @@
+Name: Alexander Lewis
+Date Created: 11/17/2024
+---
+Program Description:
+The program initalizes a deck of poker cards and allows 
+the user to select cards to be redrawn.
+---
+Logical Steps:
+1. The program first deals five cards by randomly selecting a card value and suit.
+2. Then, the program prints the hand.
+3. Next, the user is asked what cards they wish to replace.
+4. The program seprates the user inputed list of cards into a python list.
+5. The selected cards are redrawn using random.
+6. The program prints the new hand.
+---
+Variables:
+1. values: The possible card values such as 2, 4, king, ace, etc
+2. suits: The possible card suits.
+3. value: A card's assigned value.
+4. suit: A card's assigned suit.
+5. cards: All cards as a list.
+6. cardDeck: The current cards of one poker game.
+7. myDeck: The user's current hand.
+8. Card: A singular card.
+9. newCard: A new redrawn card.
+10. x: A placeholder value.
+11. cont: If the loop should continue or not.
+---
+Functions:
+1. Function Name: deal
+Description: Deals 5 cards with random suits and values.
+Parameters: self, num_cards=5
+Returns: deal_cards
+2. Function Name: draw
+Description: Draws a card with a random suit and value.
+Parameters: self, num_cards
+Returns: drawn_cards
+3. Function Name: shuffle
+Description: Shuffles the deck of cards.
+Parameters: self
+Returns: none
+4. Function Name: start_poker
+Description: Runs the poker game.
+Parameters: none
+Returns: none
+---
+Link to repository: https://github.com/DuckSilver/COP2373.git
